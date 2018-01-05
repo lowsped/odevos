@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+            <EditText android:textSize="20dp"
+
+                android:textColor="@color/merah" android:textColorHint="@color/ireng" android:id="@+id/keyword_id" android:background="@drawable/rect" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Search..." android:maxLines="1" android:drawableRight="@drawable/search" />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/panduan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+            <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How to us:" />
+                <TextView  android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Masukkan Nama Kota atau Kecamatan Pada Kolom diatas." />
+                <TextView  android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hasil yang ditampilkan :" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="1. Desa" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="2. Kecamatan" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="3. Kabupaten" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="4. Provinsi" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <ListView android:id="@+id/listView"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1142409875326374/2644332101">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "296017619565",
+    "firebase_url": "https://kode-pos-b19f0.firebaseio.com",
+    "project_id": "kode-pos-b19f0",
+    "storage_bucket": "kode-pos-b19f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296017619565:android:8ea0ef9885640982",
+        "android_client_info": {
+          "package_name": "com.lengkap.pos.kode.indonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296017619565-59tcdemlv8tt7bp86p9dckkgo0376vjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lengkap.pos.kode.indonesia",
+            "certificate_hash": "14674d7445a377803f859b2436093d3432e50af4"
+          }
+        },
+        {
+          "client_id": "296017619565-kir68pmpro8s5j2ml7a7bnoas7b901o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHqlX8QxI9w5qdLF21dvRHeSJYlXa3Iec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296017619565-kir68pmpro8s5j2ml7a7bnoas7b901o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
